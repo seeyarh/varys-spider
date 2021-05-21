@@ -1,0 +1,18 @@
+[package]
+name = "varys-spider"
+version = "0.1.0"
+authors = ["collins.huff"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.0.0-beta.2"
+log = "0.4.14"
+env_logger = "0.8.3"
+surf = "2.2.0"
+
+
+[dependencies.async-std]
+version = "1.7.0"
+features = ["attributes"]
